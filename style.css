@@ -1,7 +1,19 @@
 body{
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
+	font-family: cursive, serif;
+	color:white;
+	background-image: url("naruto.gif");
+
 }
 p{
-	font-size: 2em
+	font-size: 1em;
+	font-family: 'Indie Flower', cursive;
+	color: #ff7b00
+}
+#animoo{
+	color:blue;
+}
+#anime{
+	color:orange;
 }
