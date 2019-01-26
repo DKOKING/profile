@@ -4,6 +4,9 @@ body{
 	font-family: cursive, serif;
 	color:white;
 	background-image: url("mehsferrel.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 35%;
+	background-color: black;
 
 }
 p{
@@ -11,9 +14,27 @@ p{
 	font-family: 'Indie Flower', cursive;
 	color: #ff7b00
 }
-#animoo{
-	color:blue;
+nav ul li{
+	display: inline;
+	border: 1px solid black;
+	padding: 10px 10px;
+	background-color: #1e1e1e
 }
-#anime{
-	color:orange;
+h1{
+	color: orange;
+}
+#aboutme{
+	padding:0px 100px;
+	background-color: #1e1e1e
+}
+#spoops{
+	background-image: url("ohrealspoopy.gif");
+}
+#animan{
+	background-image: url("jojoref.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#animoo{
+	background-color: #1e1e1e
 }
