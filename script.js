@@ -1,9 +1,21 @@
 let about = document.getElementById("about");
+let bodyArray = document.getElementsByTagName("BODY");
+let body = bodyArray[0];
 
-about.addEventListener("click", whenClicked);
+document.addEventListener("click", whenClicked);
 
-function whenClicked(){
-	let newHeading = document.createElement("h1")
+about.addEventListener("mouseover", whenHovering);
+
+about.addEventListener("mouseout", whenNotHovering);
+
+function whenClicked() {
+	let newHeading = document.createElement("h1");
 	newHeading.innerHTML = "Kristian Ofori";
-	about.appendChild(newHeading)
+	about.appendChild(newHeading);
+}
+function whenHovering() {
+	body.style.color = "blue";
+}
+function whenNotHovering() {
+	body.style.color = "orange";
 }
