@@ -1,12 +1,9 @@
 let about = document.getElementById("about");
 let bodyArray = document.getElementsByTagName("BODY");
 let body = bodyArray[0];
-
 document.addEventListener("click", whenClicked);
-
-about.addEventListener("mouseover", whenHovering);
-
-about.addEventListener("mouseout", whenNotHovering);
+document.addEventListener("mouseover", whenHovering);
+document.addEventListener("mouseout", whenNotHovering);
 
 function whenClicked() {
 	let newHeading = document.createElement("h1");
@@ -14,8 +11,9 @@ function whenClicked() {
 	about.appendChild(newHeading);
 }
 function whenHovering() {
-	body.style.color = "blue";
+	body.style.color = "orange";
+
 }
 function whenNotHovering() {
-	body.style.color = "orange";
+	body.style.color = "blue";
 }
